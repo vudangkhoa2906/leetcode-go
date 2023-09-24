@@ -12,6 +12,6 @@ func TestNumberOfEnclaves(t *testing.T) {
 		{0, 0, 0, 0},
 	}
 	if res := numEnclaves(grid); res != 3 {
-		t.Errorf("Output: %d: Expected: 3\n", res)
+		t.Errorf("Output: %d: Expected: %d\n", res, 3)
 	}
 }

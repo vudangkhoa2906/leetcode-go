@@ -11,6 +11,6 @@ func TestCherryPickupII(t *testing.T) {
 		{1, 0, 2, 3, 0, 0, 6},
 	}
 	if res := cherryPickup(grid); res != 28 {
-		t.Errorf("Output: %d: Expected: 28\n", res)
+		t.Errorf("Output: %d: Expected: %d\n", res, 28)
 	}
 }

@@ -1,7 +1,6 @@
 package surroundedregions
 
 import (
-	"fmt"
 	"testing"
 )
 
@@ -13,5 +12,5 @@ func TestSurroundedRegions(t *testing.T) {
 		{'X', 'O', 'X', 'X'},
 	}
 	solve(board)
-	fmt.Println(board)
+	t.Logf("Output: %v\n", board)
 }

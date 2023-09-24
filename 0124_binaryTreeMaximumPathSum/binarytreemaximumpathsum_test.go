@@ -15,6 +15,6 @@ func TestBinaryTreeMaximumPathSum(t *testing.T) {
 			Right: &common.TreeNode{Val: 7, Left: nil, Right: nil}},
 	}
 	if res := maxPathSum(root); res != 42 {
-		t.Errorf("Output: %d: Expected: 42\n", res)
+		t.Errorf("Output: %d: Expected: %d\n", res, 42)
 	}
 }
